@@ -7,6 +7,6 @@ then
 mkdir "$(dirname "$PCONFIG")" -p
 cat > "$PCONFIG" << EOF
 [ProxyList]
-socks5 222.201.187.246 1080ONFIG
+socks5 222.201.187.246 1080
 EOF
 fi
