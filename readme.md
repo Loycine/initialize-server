@@ -4,7 +4,7 @@ initialize-server是脚本管理程序，它用于配置Linux服务器的部分�
 ## Overview
 initserv为入口程序。每一项环境安装任务抽象成一个target，由initserv程序的参数指定target文件。
 
-initserv支持用户自定义添加新的target和target依赖，如配置proxychains， Install PyTorch等。
+initserv支持用户自定义添加新的target和target依赖，如配置proxychains， 安装PyTorch等。
 
 ## Usage
 Clone this repository, and do the following commands.
