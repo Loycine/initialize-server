@@ -1,0 +1,12 @@
+#!/bin/bash
+
+PCONFIG="$HOME/.proxychains/proxychains.conf"
+
+if [[ ! -f "$PCONFIG" ]]
+then
+mkdir "$(dirname "$PCONFIG")" -p
+cat > "$PCONFIG" << EOF
+[ProxyList]
+socks5 222.201.187.246 1080ONFIG
+EOF
+fi

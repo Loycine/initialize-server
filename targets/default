@@ -3,5 +3,3 @@
 target timezone
 target apt-source
 target apt-upgrade
-target gpu-board-server
-target watchtower
